@@ -3,7 +3,7 @@ const MongoClient = require('mongodb').MongoClient;
 const bodyParser = require('body-parser');
 const path = require('path')
 const app = express()
-const port = 3000
+const port = 2000
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use('/public', express.static(path.join(__dirname, 'public')))
