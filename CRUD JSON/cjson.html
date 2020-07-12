@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+
+	</style>
+	
+</head>
+<body>
+
+	<div name="form">
+		<table border="1px" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td style="text-align: center;width: 49%; background: red">Name</td>
+				<td style="text-align: center;width: 49%; background: red"><input  type="text" id="name"></td>
+			</tr>
+			<tr>
+				<td style="text-align: center;width: 49%; background: green"> Age </td>
+				<td style="text-align: center;width: 49%; background: green"><input  type="text" id="age"></td>		
+			</tr>
+			<tr >
+				<td ><button id="updateButton" onclick="update()">update</button></td>
+				<td ><button onclick="add()">Add</button></td>
+			</tr>
+			<tr>
+				<td id ></td>
+			</tr>
+		</table>
+
+	</div>
+	<br>
+	<div name="container">
+		<table id="dataTable" border="1px" cellpadding="0" cellspacing="0" width="100%">
+			<thead>
+				<tr>
+					<td style="text-align: center;width: 33%; color: red">Name</td>
+					<td style="text-align: center;width: 33%;color: blue">Age</td>
+					<td style="text-align: center;width: 33%;">Action</td>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+	</div>
+
+
+	<!-- <table id="dataTable" bordwer="1px" cellpadding="0" cellspacing="0" width="100%">
+		<thead>
+				<tr>
+				<th style="text-align: center;width: 33%;">Name</th>
+				<th style="text-align: center;width: 33%;">Age</th>
+				<th style="text-align: center;width: 33%;">Add</th>
+			</tr>
+		</thead>
+		<tbody>	
+		</tbody>
+		<tr>
+					<td colspan="3">
+						<table name="dataTable" border="1px" cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<td style="text-align: center;width: 33%;">Name</td>
+								<td style="text-align: center;width: 33%;">Age</td>
+								<td style="text-align: center;width: 33%;">Add</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+	</table>
+ -->
+<script type="text/javascript" src="cjson.js"></script>
+	
+</body>
+</html>

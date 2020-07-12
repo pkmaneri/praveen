@@ -1,0 +1,42 @@
+.divStyle1{
+	width: 49%;
+	float: left;
+	border: 1px ;
+	background: red;
+	text-align: center;
+}
+.divStyle2{
+	width: 49%;
+	float: left;
+	border: 1px ;
+	background: pink;
+	text-align: center;
+}
+.divStyle3{
+	width: 49%;
+	float: left;
+	border: 1px ;
+	background: yellow;
+	text-align: center;
+}
+.divStyle4{
+	width: 49%;
+	float: left;
+	border: 1px ;
+	background: green;
+	text-align: center;
+}
+.divStyle5{
+	width: 49%;
+	float: left;
+	border: 1px ;
+	background: blue;
+	text-align: center;
+}
+.divStyle6{
+	width: 49%;
+	float: left;
+	border: 1px ;
+	background: red;
+	text-align: center;
+}

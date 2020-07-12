@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="orderlist1.css">
+</head>
+<body>
+	<table border="1px" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+			<td style="text-align: center;width: 50%; background: red">company Name </td>
+			<td style="text-align: center;width: 50%; background: red"><input type="text" id="companyName"></td>			
+		</tr>
+		<tr>
+			<td style="text-align: center;width: 50%; background: red">company id </td>
+			<td style="text-align: center;width: 50%; background: red"><input type="text" id="companyId"></td>			
+		</tr>
+		<tr>
+			<td>						
+			<input type="text" id="newItem"/>
+			<button onclick="addItem()" style="text-align: center;width: 25%;background: green" id = "addItemButton">Add Item</button>
+			<button  onclick="updateItem()" style="text-align: center;width: 25%;background: green" id ="updateItemButton">Update Item</button>
+			<ol id="itemList"></ol>
+			</td>
+			<td colspan="2" style="text-align: right;">
+			<button onclick="submitData()" id="submitDataButton">Submit</button>
+			</td>
+		</tr>	
+	</table>
+		<table id="dataTable" border="1px" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td style="text-align: center;width:100% " >companyName</td>
+			</tr>
+	</table>
+
+	<script type="text/javascript" src="orderlist1.js"></script>
+
+</body>
+</html>

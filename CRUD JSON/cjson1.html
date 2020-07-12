@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	</title>
+	<link rel="stylesheet" type="text/css" href="cjson1.css	">
+	
+<body>
+	<div name="form">
+		<table border="1px" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<td width="25%">Name</td>
+				<td width="25%"><input  type="text" id="name"></td>				
+			</tr>
+			<tr>
+				<td width="25%">Age</td>
+				<td width="25%"><input type="number" id="age"></td>
+			</tr>
+			<tr>
+				<td width="25%">Sex</td>
+				<td width="25%"><input  type="male" id="sex"></td>				
+			</tr>
+			<tr>
+				<td width="25%">mobile</td>
+				<td width="25%"><input type="number" id="mobile"></td>
+			</tr>
+			<tr >
+				<td ><button id="updateButton" onclick="update()">Update</button></td>
+				<td ><button onclick="add()">Add</button></td>
+			</tr>
+		</table>
+
+	</div>
+		<br>
+	<div name="container">
+		<table id="dataTable" border="1px" cellpadding="0" cellspacing="0" width="100%">
+			<thead>
+				<tr>
+					<td style="text-align: center;width: 20%;">Name</td>
+					<td style="text-align: center;width: 20%;">Age</td>
+					<td style="text-align: center;width: 20%">Sex</td>
+					<td style="text-align: center;width: 20%">Mobile</td>
+					<td style="text-align: center;width: 20%;">Action</td>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+	</div>
+		
+
+	<script type="text/javascript" src="cjson1.js"></script>
+</body>
+</html>

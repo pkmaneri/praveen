@@ -1,0 +1,7 @@
+open termial
+
+cd Desktop/Projects
+
+git add .
+
+git commit -m "add edit functionality using order list " 

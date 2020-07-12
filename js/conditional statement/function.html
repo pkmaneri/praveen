@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		//function name
+		//argument - input passed to the funtion
+		function printNumber(counter, name) {
+			console.log(counter, name);
+			for (var i = 1; i <= counter; i++) {
+	 			console.log(" hello " + name + " --" +i);
+ 			}
+		}
+
+
+		// funtion caller
+		printNumber(3, "praveen");
+		printNumber(1, "naveen");
+		printNumber(0, "test");
+
+
+	
+	//for
+	function printNumber2(counter, name) {
+		console.log(counter, name);
+		for (var i = 1; i <= counter; i++) {
+ 			console.log(" hello " + name + " --" +i);
+		}
+	}
+
+
+	printNumber2(15, "delhi");
+	printNumber2(10, "patna");
+	printNumber2(0, "maner");
+
+
+	//while
+	function printNumber8(counter, name) {
+		console.log(counter, name);
+		var p = 1;
+		while (p <= counter){ 
+			if ( p % 2 == 0) {
+				console.log(" hello" + name +" ---" +p);
+			} 
+			p++;
+		}		
+	}
+
+	printNumber(5,"navin");
+
+	//do while
+	function printNumber9(counter, name) {
+
+		console.log(counter, name);
+		var j = 1;
+		while(j <= counter);
+		 do {
+		console.log(" hello " + name +" ----" j);
+		j++;
+		}
+	}
+
+
+	printNumber9(15, "delhi1");
+	printNumber9(10, "patna1");
+	printNumber9(0, "maner1");
+
+		
+
+
+
+
+	
+
+
+
+	</script>
+</body>
+</html>
