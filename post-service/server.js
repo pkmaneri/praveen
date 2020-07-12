@@ -3,7 +3,7 @@ const MongoClient = require('mongodb').MongoClient;
 const bodyParser = require('body-parser');
 const path = require('path')
 const app = express()
-const port = 3000
+const port = 3001
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use('/public', express.static(path.join(__dirname, 'public')))
@@ -62,8 +62,16 @@ app.post('/post', (req, res) => {
     })
 })
 
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname + '/public/index.html'));
+app.get('/page1', (req, res) => {
+    res.sendFile(path.join(__dirname + '/public/page1/index.html'));
 })
+
+app.get('/page2', (req, res) => {
+  res.sendFile(path.join(__dirname + '/public/page2/index.html'));
+})
+app.get('/page3', (req, res) => {
+  res.sendFile(path.join(__dirname + '/public/page3/index.html'));
+})
+
 
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
